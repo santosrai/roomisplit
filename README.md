@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Manage shared expenses smarter with AI-powered features.
+
 
 ## Getting Started
 
@@ -14,23 +15,85 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## TODO Features:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Group and Friend Management:
 
-## Learn More
+- [ ] Add, edit, or remove groups and friends.
+- [ ] Assign participants to each group for expense tracking.
 
-To learn more about Next.js, take a look at the following resources:
+## Expense Splitting & Debt Tracking:
+- [ ] Split expenses equally, by percentage, or by shares.
+- [ ] Record debts for each participant.
+- [ ] Calculate balances to track who owes whom and by how much.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Simplifying Debts:
+Algorithm to simplify the number of payments between users, reducing the number of individual transactions.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Expense Categories & Totals:
+- [ ] Categorize expenses (e.g., rent, utilities, groceries, etc.).
+- [ ] Calculate total group and individual spending.
+- [ ] Display categorized spending with insights.
 
-## Deploy on Vercel
+## Recurring Expenses:
+- [ ] Set up recurring payments for things like rent, utilities, or subscriptions.
+- [ ] Automate reminders and tracking for these payments.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Offline Mode:
+- [ ] Allow users to add and manage expenses offline, syncing data when they reconnect to the internet.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Cloud Sync:
+- [ ] Sync data across devices using a cloud-based service.
+Ensure seamless data backup and access from multiple devices.
+
+## Payment Integration:
+- [ ] allow users to settle debts directly through the app.
+- [ ] Allow tracking of payments made outside the app.
+
+---
+
+## Smart Expense Suggestions
+AI analyzes spending patterns and suggests categories for new expenses.
+
+- [ ] Implement NLP to analyze text in expense descriptions.
+- [ ] Train AI models to suggest categories based on spending patterns.
+- [ ] Display category suggestions when adding new expenses.
+
+---
+
+## Automatic Expense Categorization
+AI automatically categorizes expenses based on previous inputs or recurring patterns.
+
+- [ ] Train a classification model using past expense data.
+- [ ] Automatically categorize expenses based on keywords or previous history.
+- [ ] Provide an option to manually correct miscategorized expenses.
+
+---
+
+## Personalized Budgeting & Spending Insights
+AI provides personalized recommendations based on users' spending behavior.
+
+- [ ] Analyze spending history and trends for each user.
+- [ ] Develop a recommendation engine to offer personalized savings advice.
+- [ ] Display insights and recommendations in the user dashboard.
+
+---
+
+## Debt Settlement Optimization
+AI suggests the best ways for users to settle debts, reducing the number of transactions.
+
+- [ ] Implement an AI algorithm to simplify settlements.
+- [ ] Factor in different payment methods and user preferences.
+- [ ] Display the most efficient settlement options to users.
+
+---
+
+## Voice-Activated Expense Entry
+Users can input expenses via voice commands, and AI will automatically record them.
+
+- [ ] Integrate speech-to-text capabilities.
+- [ ] Use NLP to process voice commands and extract expense details.
+- [ ] Ensure accurate transcription of spoken amounts and participant names.
+
+---
